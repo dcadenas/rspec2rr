@@ -12,21 +12,21 @@ The script is just a set of regular expressions thay map to the most common used
 
 == SYNOPSIS:
 
- * First of all check that you setup your spec_helper.rb to use RR. After this run your specs and you will see a lot of errors because your spec doubles are still in RSpec syntax.
- * Check that you have all your specs commited so you can go back to the previous state if you need to.
- * Run rspec2rr in your project root dir. Only *_spec.rb files inside the spec directory will be changed. After that rerun your specs and fix any remaining spec fix. 
+* First of all check that you setup your spec_helper.rb to use RR. After this run your specs and you will see a lot of errors because your spec doubles are still in RSpec syntax.
+* Check that you have all your specs commited so you can go back to the previous state if you need to.
+* Run rspec2rr in your project root dir. Only *_spec.rb files inside the spec directory will be changed. After that rerun your specs and fix any remaining spec fix. 
 
 == REQUIREMENTS:
 
- None to run the script.
- To run the specs and rake tasks you'll need:
- * hoe
- * rspec
- * filetesthelper
+None to run the script.
+To run the specs and rake tasks you'll need:
+* hoe
+* rspec
+* filetesthelper
 
 == INSTALL:
 
- * sudo gem install dcadenas-rspec2rr
+ sudo gem install dcadenas-rspec2rr
 
 == LICENSE:
 
