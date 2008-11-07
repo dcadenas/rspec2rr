@@ -1,0 +1,16 @@
+#!/usr/bin/ruby
+$: << File.expand_path(File.join(File.dirname(__FILE__), '..'))
+require 'lib/rspec2rr'
+
+Dir['spec/**/*_spec.rb'].each do |filename|
+  puts "Converting #{filename}"
+  content = File.read(filename) 
+  result = RSpec2RR.to_rr(content)
+  if result != content
+    File.open(filename, 'w') do |f|
+      f << result
+    end
+  end
+end
+puts
+puts "Done"

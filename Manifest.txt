@@ -1,0 +1,9 @@
+History.txt
+README.rdoc
+Manifest.txt
+Rakefile
+bin/rspec2rr
+lib/rspec2rr.rb
+rspec2rr.gemspec
+spec/integration/rspec2rr_spec.rb
+spec/unit/rspec2rr_spec.rb
