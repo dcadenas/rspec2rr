@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name     = "rspec2rr"
   s.version  = "0.1.0"
-  s.date     = "2008-11-6"
+  s.date     = "2008-11-10"
   s.summary  = "Helps converting from rspec doubles to rr doubles"
   s.email    = "dcadenas@gmail.com"
   s.homepage = "http://github.com/dcadenas/rspec2rr"
